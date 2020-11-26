@@ -11,7 +11,7 @@ elif number_of_augmentations_to_produce == 3:
 elif number_of_augmentations_to_produce == 5:
     experiment_output_name = f'third_exp_{number_of_augmentations_to_produce}_outputs_for_match'
 
-AUGMENT_TRAIN = True
+AUGMENT_TRAIN = False
 print(f'AUGMENT_TRAIN: {AUGMENT_TRAIN}')
 number_of_augmentations_to_produce = 1
 
