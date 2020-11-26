@@ -1,6 +1,8 @@
 # AutoGenOfContrastSetsFromSceneGraphs
 Repository for the paper "Automatic Generation of Contrast Sets from Scene Graphs"
 
+![image](fig1.png)
+
 ## Setup   
 
 First, download the data directory.    
