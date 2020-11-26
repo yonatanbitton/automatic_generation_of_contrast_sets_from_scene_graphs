@@ -29,7 +29,7 @@ Change the `question_template` flag to choose the question template you want to 
 ```python src/work_on_valid/augment_gqa.py --question_template do_you_see_x_or_y```  
 
 Expected output:
-```python
+```
 AUGMENT_TRAIN: False
 first_exp_1_outputs_for_match
 template_class_constructor: do_you_see_x_or_y
@@ -49,7 +49,7 @@ Do you see either any ostrich or cow there?, yes
 In addition, change the `AUGMENT_TRAIN` variable to `True` if you want to augment the train. Else - it is `False`.  
 
 Expected output:
-```python
+```
 AUGMENT_TRAIN: True
 first_exp_1_outputs_for_match
 template_class_constructor: do_you_see_x_or_y
