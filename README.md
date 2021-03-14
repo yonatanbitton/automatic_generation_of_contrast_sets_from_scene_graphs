@@ -15,8 +15,7 @@ Is there an elephant near the puddle?, no
 
 ## Setup   
 
-First, download the data directory.    
-`https://drive.google.com/drive/folders/1BjPShPRcU7B-rh8I6WOBm20zjBv31E2R?usp=sharing`  
+First, download the data directory https://drive.google.com/drive/folders/1BjPShPRcU7B-rh8I6WOBm20zjBv31E2R?usp=sharing. 
   
 Required packages are `numpy, pandas, cv2`   
 
