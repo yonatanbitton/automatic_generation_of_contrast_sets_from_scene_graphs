@@ -40,7 +40,7 @@ Code for the ***train augmentation*** is available at `src/work_on_train/augment
 Change the `question_template` flag to choose the question template you want to work on, for example:  
 ```python src/work_on_valid/augment_gqa.py --question_template do_you_see_x_or_y```  
 
-Expected output:
+**Expected output**:
 ```
 AUGMENT_TRAIN: False
 first_exp_1_outputs_for_match
@@ -60,7 +60,7 @@ Do you see either any ostrich or cow there?, yes
 
 In addition, change the `AUGMENT_TRAIN` variable to `True` if you want to augment the train. Else - it is `False`.  
 
-Expected output:
+**Expected output**:
 ```
 AUGMENT_TRAIN: True
 first_exp_1_outputs_for_match
