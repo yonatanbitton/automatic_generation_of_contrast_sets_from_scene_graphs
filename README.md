@@ -7,8 +7,8 @@ Our method leverages rich semantic input representation to automatically generat
 
 This repository allows perturbation of the GQA validation set questions, by changing a single atom (object, attribute, or relationship) to a different atom, causing the answer to be changed as well. For example - changing "bird" to "tree", and the answer from "yes" to "no" (More examples below):
 ```
-Do you see either a yellow giraffe or bird?, yes
-Do you see either a yellow giraffe or tree?, no
+Is there a fence near the puddle?, yes
+Is there an elephant near the puddle?, no
 ```
 
 <img src="https://i.ibb.co/JsY90hj/fig1.png" width="350">
