@@ -1,6 +1,16 @@
 # Automatic Generation of Contrast Sets from Scene Graphs
 Repository for the paper "Automatic Generation of Contrast Sets from Scene Graphs"
 
+## Intro   
+
+Our method leverages rich semantic input representation to automatically generate contrast sets for the visual question answering task. Our method computes the answer of perturbed questions, thus vastly reducing annotation cost and enabling thorough evaluation of models’ performance on various semantic aspects (e.g., spatial or relational reasoning).  
+
+This repository allows perturbation of the GQA validation set questions, by changing a single atom (object, attribute, or relationship) to a different atom, causing the answer to be changed as well. For example - changing "bird" to "tree", and the answer from "yes" to "no" (More examples below):
+```
+Do you see either a yellow giraffe or bird?, yes
+Do you see either a yellow giraffe or tree?, no
+```
+
 <img src="https://i.ibb.co/JsY90hj/fig1.png" width="350">
 
 ## Setup   
