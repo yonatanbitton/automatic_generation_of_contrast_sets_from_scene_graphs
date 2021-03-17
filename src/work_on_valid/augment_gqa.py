@@ -45,7 +45,7 @@ def init_csv_from_checkpoint(df_checkpoint_path):
     return all_qa_augmentations_df
 
 
-def debug_single_vid(balanced_val_data, scene_graphs, all_qa_augmentations_df, chosen_image_id, qa_key):
+def debug_single_img(balanced_val_data, scene_graphs, all_qa_augmentations_df, chosen_image_id, qa_key):
     scene_graph_for_image_id = scene_graphs[chosen_image_id]
     augmented_questions_for_image = augment_qas_for_image_id(balanced_val_data, chosen_image_id,
                                                              scene_graph_for_image_id, all_qa_augmentations_df, idx=0, skip_exists=False, debug_qa_key=qa_key)
