@@ -21,10 +21,6 @@ def main(stats_dict):
 
     all_qa_augmentations_df = init_csv_from_checkpoint(df_checkpoint_path)
 
-    if DEBUG:
-        debug_single_vid(balanced_train_data, train_scene_graphs, all_qa_augmentations_df,
-                         chosen_image_id='2348869', qa_key='14649599')
-
     train_scene_graphs_items = list(train_scene_graphs.items())
 
     for idx, (image_id, scene_graph) in enumerate(train_scene_graphs_items):
