@@ -20,15 +20,9 @@ def main(stats_dict):
 
     all_qa_augmentations_df = init_csv_from_checkpoint(df_checkpoint_path)
 
-    if DEBUG:
-        debug_single_vid(balanced_val_data, val_scene_graphs, all_qa_augmentations_df,
-                         chosen_image_id='2382258', qa_key=None)
-
     val_scene_graphs_items = list(val_scene_graphs.items())
 
     for idx, (image_id, scene_graph) in enumerate(val_scene_graphs_items):
-        if idx < 0:  # 4193
-            continue
 
         augmented_questions_for_image, all_qa_augmentations_df = augment_qas_for_image_id(balanced_val_data, image_id, scene_graph, all_qa_augmentations_df, idx)
 
