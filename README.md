@@ -1,5 +1,6 @@
 # Automatic Generation of Contrast Sets from Scene Graphs
 Repository for the paper "Automatic Generation of Contrast Sets from Scene Graphs"
+https://arxiv.org/abs/2103.09591
 
 ## Intro   
 
