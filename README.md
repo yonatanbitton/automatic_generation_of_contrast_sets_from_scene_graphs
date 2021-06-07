@@ -16,7 +16,7 @@ Is there an elephant near the puddle?, no
 
 ### Contrast sets in LXMERT input format
 If you only want the contrast sets in LXMERT input format, an example for 1 augmentation per question is available here: https://drive.google.com/drive/folders/1DJuFwUnSQXuMOkYZ6e7N5_Q-V1v0nvZ4. 
-There are 15 files. 12 files for each question template. Two more files for aggregating all of the question templates (`augmentation_all_original` and `augmentation_all_augmented`). Finally, a statistics file (`stats_first_exp_1_outputs_for_match`). 
+There are 15 files. 12 files for each question template (6 * 2). Two more files for aggregating all of the question templates (`augmentation_all_original` and `augmentation_all_augmented`). Finally, a statistics file (`stats_first_exp_1_outputs_for_match`). 
 
 To replicate the contrast sets construction, you will need the full setup.
 
