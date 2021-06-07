@@ -14,6 +14,11 @@ Is there an elephant near the puddle?, no
 
 <img src="https://i.ibb.co/JsY90hj/fig1.png" width="350">
 
+### Contrast sets in LXMERT input format
+If you only want the contrast sets in LXMERT input format, an example for 1 augmentation per question is available here: https://drive.google.com/drive/folders/1DJuFwUnSQXuMOkYZ6e7N5_Q-V1v0nvZ4
+
+To replicate the contrast sets construction, you will need the full setup
+
 ## Setup   
 
 First, download the data directory https://drive.google.com/drive/folders/1BjPShPRcU7B-rh8I6WOBm20zjBv31E2R?usp=sharing. 
